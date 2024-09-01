@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    animation: poyavlenie 2s forwards;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #111317;
+}
+
+@keyframes poyavlenie {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+body.light-theme {
+    background-color: white;
+}
+
+body.dark-theme {
+    background-color: #111317;
+}
+
+body.light-theme p{
+    color: black;
+}
+
+body.dark-theme p{
+    color: white;
+}
+
+body.light-theme h3{
+    color: black;
+}
+
+body.dark-theme li{
+    color: white;
+}
+
+body.light-theme li{
+    color: black;
+}
+
+body.dark-theme h3{
+    color: white;
+}
+
+body.light-theme header{
+    border-bottom: 1px solid black;
+}
+
+body.dark-theme header{
+    border-bottom: 1px solid white;
+}
+
+body.light-theme .About{
+    border-bottom: 1px solid black;
+}
+
+body.dark-theme .About{
+    border-bottom: 1px solid white;
+}
+
+body.light-theme .Opportunities{
+    border-bottom: 1px solid black;
+}
+
+body.dark-theme .Opportunities{
+    border-bottom: 1px solid white;
+}
+
+header {
+    height: 742px;
+    border-bottom: 1px solid white;
+}
+
+.menu {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    border-bottom: 2px solid black;
+    background-color: rgb(56, 51, 51);
+}
+
+.menu #theme {
+    text-decoration: none;
+    color: rgb(131, 58, 224);
+    font-size: 20px;
+} 
+
+nav {
+    background-color: rgb(56, 51, 51);
+}
+
+.nav-a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 0px 15px 0px 15px;
+    background-color: rgb(56, 51, 51);
+}
+
+.h1-header_1 {
+    color: rgb(131, 58, 224);
+    background-color: rgb(56, 51, 51);
+}
+
+.welcome {
+    height: 660px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.welcome-text-and-button {
+    height: 350px;
+}
+
+.welcome-text-and-button h1 {
+    text-align: center;
+    color: rgb(131, 58, 224);
+    margin: 20px;
+    font-size: 50px;
+}
+
+.welcome-text-and-button p {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.welcome-text-and-button button {
+    width: 450px;
+    height: 70px;
+    padding: 25px;
+    border-radius: 5px;
+    background: rgb(131, 58, 224);
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.welcome-text-and-button a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background: rgb(131, 58, 224);
+}
+
+
+.welcome-img {
+    height: 250px;
+    width: 400px;
+}
+
+.About {
+    height: 742px;
+    border-bottom: 1px solid white;
+}
+
+.About-a-div {
+    height: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.About-a {
+    margin: 15px;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(131, 58, 224);
+    border: 2px solid rgb(131, 58, 224);
+    border-radius: 20px;
+    background-color: white;
+}
+
+.About-a-2 {
+    margin: 15px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(131, 58, 224);
+}
+
+.About h1 {
+    text-align: center;
+    color: rgb(131, 58, 224);
+    font-size: 40px;
+    margin: 30px;
+}
+
+.About p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.About h2 {
+    text-align: center;
+    color: rgb(131, 58, 224);
+    font-size: 30px;
+    margin: 33px;
+}
+
+.About-div {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.About-div img {
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+}
+
+.Opportunities {
+    height: 742px;
+    border-bottom: 1px solid white;
+}
+
+.Opportunities h1 {
+    text-align: center;
+    color: rgb(131, 58, 224);
+    font-size: 40px;
+    margin: 30px;
+}
+
+.Opportunities h2 {
+    text-align: center;
+    color: rgb(131, 58, 224);
+    font-size: 40px;
+    margin: 60px 30px 60px 30px;
+}
+
+.Opportunities-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Opportunities-div-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Opportunities-div-2 h3{
+    color: white;
+    text-align: center;
+}
+
+.Opportunities-div h3{
+    color: white;
+    text-align: center;
+}
+
+.Opportunities-div img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.Opportunities-div-2 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.Opportunities-div-div-a img {
+    position: relative;
+    left: 43px;
+    margin: 30px 0px 30px 0px;
+}
+
+.Opportunities-div-div-b img {
+    position: relative;
+    left: 43px;
+    margin: 30px 0px 30px 0px;
+}
+
+.Opportunities-div-div-c img {
+    position: relative;
+    left: 75px;
+    margin: 30px 0px 30px 0px;
+}
+
+.Opportunities-div-div-d img {
+    position: relative;
+    left: 43px;
+    margin: 30px 0px 30px 0px;
+}
+
+.Opportunities-div-div-e img {
+    position: relative;
+    left: 33px;
+    margin: 30px 0px 30px 0px;
+}
+
+.Opportunities-div-div-f img{
+    position: relative;
+    left: 60px;
+    margin: 30px 0px 30px 0px;
+}
+
+.future {
+    height: 660px;
+    border-bottom: 1px solid white;
+}
+
+.future h1 {
+    text-align: center;
+    color: rgb(131, 58, 224);
+    font-size: 40px;
+    margin: 30px;
+}
+
+.future-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.future-div li {
+    color: white;
+    font-size: 18px;
+    margin: 15px 0px 15px 0px;
+}
+
+.future-div img {
+    height: 400px;
+    width: 400px;
+}
+
+footer {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    border-bottom: 2px solid black;
+    background-color: rgb(56, 51, 51);
+}
+
+footer h1 {
+    background-color: rgb(56, 51, 51);
+    color: rgb(131, 58, 224);
+}
+
+footer a {
+    background-color: rgb(56, 51, 51);
+    color: rgb(131, 58, 224);
+    text-decoration: none; 
+    font-size: 20px;
+}
